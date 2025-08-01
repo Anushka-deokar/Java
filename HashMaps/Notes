@@ -1,0 +1,9 @@
+HashMap is part of Java’s Collection Framework.
+
+It stores data as key-value pairs.
+
+Keys are unique, but values can be duplicated.
+
+It is unordered (not sorted by insertion or keys).
+
+Based on hashing mechanism.
