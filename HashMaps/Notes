@@ -1,9 +1,13 @@
-HashMap is part of Java’s Collection Framework.
+What is HashMap ? 
+- HashMap is part of Java’s Collection Framework.
+- It stores data as key-value pairs.
 
-It stores data as key-value pairs.
+- Keys are unique, but values can be duplicated.
 
-Keys are unique, but values can be duplicated.
+- It is unordered (not sorted by insertion or keys).
 
-It is unordered (not sorted by insertion or keys).
+- Based on hashing mechanism.
 
-Based on hashing mechanism.
+Syntax :
+
+    HashMap<KeyType, ValueType> mapName = new HashMap<>();
