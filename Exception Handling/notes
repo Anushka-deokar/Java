@@ -1,0 +1,9 @@
+✅ What is Exception Handling?
+An exception is an event that disrupts the normal flow of a program (e.g., divide by zero, file not found).
+
+✳️ Types of Exceptions:
+Checked Exception → Caught at compile time
+e.g. IOException, SQLException
+
+Unchecked Exception → Caught at runtime
+e.g. ArithmeticException, NullPointerException, ArrayIndexOutOfBoundsException
