@@ -1,3 +1,10 @@
+
+/*Declaration & Initialization
+
+int[] arr = new int[5];
+
+int[] arr = {10, 20, 30}; */
+
 import java.util.Scanner;
 
 public class input_output {
