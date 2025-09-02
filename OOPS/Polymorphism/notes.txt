@@ -1,0 +1,12 @@
+1. Polymorphism (Many Forms)
+📌 Core Concept (20% that matters)
+
+Compile-time Polymorphism (Method Overloading)
+
+Same method name, different parameter list.
+
+Runtime Polymorphism (Method Overriding + Dynamic Dispatch)
+
+Child class provides its own implementation of a method in Parent class.
+
+Accessed via upcasting (Parent ref = new Child();).
