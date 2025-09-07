@@ -1,0 +1,13 @@
+Constructors are special method having same name as classname and does not have any return type
+Example :
+   class Animal
+   {
+    Animal()
+
+    {
+
+    }
+   }
+
+   Use of Constructors
+   =>Constructors are used to initialize an objec
