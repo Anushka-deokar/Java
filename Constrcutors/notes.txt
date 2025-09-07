@@ -12,5 +12,11 @@ Example :
    Use of Constructors
    =>Constructors are used to initialize an object but not for object creation
 
-
+=> Constructors are exceuted  when we create an object of class 
 =>Constructors are called automatically at time of object creation not before or after object creation
+
+Syntax
+   access-modifier className(list of parameters) throws Exception1
+   {
+    
+   }
