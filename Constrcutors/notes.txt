@@ -10,4 +10,7 @@ Example :
    }
 
    Use of Constructors
-   =>Constructors are used to initialize an objec
+   =>Constructors are used to initialize an object but not for object creation
+
+
+=>Constructors are called automatically at time of object creation not before or after object creation
