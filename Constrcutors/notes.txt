@@ -16,7 +16,13 @@ Example :
 =>Constructors are called automatically at time of object creation not before or after object creation
 
 Syntax
-   access-modifier className(list of parameters) throws Exception1
+   access-modifier className(list of parameters) throws Exception1,..
    {
-    
+
    }
+
+Types :
+ 3 types 
+ => Default Constructors : (this is created by compiler automatically when we don't create it)
+ => Zero-argument Constructors
+ =>parameterized Constructors   
