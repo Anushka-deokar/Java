@@ -20,12 +20,27 @@ Syntax
    {
 
    }
-
+======================================================================================================
 Types :
  3 types 
- => Default Constructors : (this is created by compiler automatically when we don't create it)
+
+  1.  Default Constructors : (this is created by compiler automatically when we don't create it)
     are used to provide default values 
+    ->access modifiers of Constructors are same as that of classname
+    ->access modifier of constructor cannot be private or protected
 
- => Zero-argument Constructors
+        class Test
+       {
+          Test()
+       }
 
- =>parameterized Constructors   
+  2. Zero-argument Constructors
+
+  3. parameterized Constructors   
+
+  =======================================================================================
+  Points to remember
+  ->We can only use public or default access-modifier but not private or protected with outer class
+  -> For inner class we can use all access-modifiers i.e. public, protected, default and private
+
+  ==========================================================================================
