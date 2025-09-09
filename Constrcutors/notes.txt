@@ -28,10 +28,14 @@ Types :
     are used to provide default values 
     ->access modifiers of Constructors are same as that of classname
     ->access modifier of constructor cannot be private or protected
+    -> default constructor has only one line of code i.e   super();
 
         class Test
        {
           Test()
+          {
+            super();
+          }
        }
 
   2. Zero-argument Constructors
