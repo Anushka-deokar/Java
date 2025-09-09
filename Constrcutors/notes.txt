@@ -29,6 +29,7 @@ Types :
     ->access modifiers of Constructors are same as that of classname
     ->access modifier of constructor cannot be private or protected
     -> default constructor has only one line of code i.e   super();
+    -> we cannot use abstract, final, static, synchronized keywords with constructor
 
         class Test
        {
@@ -37,8 +38,10 @@ Types :
             super();
           }
        }
+     == ==================================================================================
 
-  2. Zero-argument Constructors
+
+  2. Zero-argument Constructors (programmer)
 
   3. parameterized Constructors   
 
