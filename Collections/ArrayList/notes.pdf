@@ -1,0 +1,11 @@
+->Arrays have fixed size
+->ArrayList Size is variable
+->In array we store primitive data 
+->In ArrayList we store objects
+->ArrayList stores in Heap
+
+Operations on ArrayList:
+  add
+  get
+  modify
+  delete/remove
