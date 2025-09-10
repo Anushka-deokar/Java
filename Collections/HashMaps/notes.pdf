@@ -1,6 +1,6 @@
    Iterable
       |
-      Collection
+    Collection
       |
 
 List   Queue  Set
@@ -15,3 +15,19 @@ Methods of Collections
  addAll
  removeAll
  clear
+
+ ---------------------------------
+            List
+              |
+ArrayList     LinkedList       Vector
+                                 |
+                                Stack
+
+----------------------------------------
+               Queue
+               |
+ProrityQueue    LinkedList         Deque
+                                    |
+                                    ArrayDeque                                
+
+
