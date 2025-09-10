@@ -39,6 +39,12 @@ ProrityQueue    LinkedList         Deque
                                         |
                                         TreeSet                 
 
+--------------------------------------------------
 
+             Map
+             |
+ HashMap     LinkedHashMap      SortedMap  Hashtable
+                                    |
+                                    TreeMap            
 
 
