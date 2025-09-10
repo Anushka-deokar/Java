@@ -28,6 +28,17 @@ ArrayList     LinkedList       Vector
                |
 ProrityQueue    LinkedList         Deque
                                     |
-                                    ArrayDeque                                
+                                    ArrayDeque
+
+ --------------------------------------
+ Set Interface
+
+                  Set
+                  |
+ HashSet        LinkedHashSet        SortedSet
+                                        |
+                                        TreeSet                 
+
+
 
 
