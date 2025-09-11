@@ -21,6 +21,18 @@ class ArrayLists {
         list.add(1, 1);
         System.out.println(list);
 
+        // set element at index
+        list.set(0, 5);
+        System.out.println(list);
+
+        // delete element
+        list.remove(3);
+        System.out.println(list);
+
+        // size
+        int size = list.size();
+        System.out.println(size);
+
     }
 
 }
