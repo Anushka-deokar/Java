@@ -14,12 +14,21 @@ public class Hashing {
         set.add(3);
         set.add(1);
 
+        // size
+        System.out.println("size of set is " + set.size());
+
         // Search - contains
         if (set.contains(1)) {
             System.out.println("Set contains 1");
         }
         if (!set.contains(6)) {
             System.out.println("Set does not contain 6");
+        }
+
+        // delete-remove
+        set.remove(1);
+        if (!set.contains(1)) {
+            System.out.println("Set does not contain 1 - we deleted 1 ");
         }
     }
 }
