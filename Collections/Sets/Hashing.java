@@ -17,6 +17,8 @@ public class Hashing {
         // size
         System.out.println("size of set is " + set.size());
 
+        // to print all elements
+        System.out.println(set);
         // Search - contains
         if (set.contains(1)) {
             System.out.println("Set contains 1");
