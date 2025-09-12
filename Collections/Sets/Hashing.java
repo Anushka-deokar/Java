@@ -1,6 +1,7 @@
 // program for hashset
 
 import java.util.*;
+import java.util.Iterator;
 
 public class Hashing {
     public static void main(String args[]) {
@@ -19,6 +20,12 @@ public class Hashing {
 
         // to print all elements
         System.out.println(set);
+
+        // Iterator: to traverase - import java.util.iterator
+        Iterator it = set.iterator();
+
+        // has functions : hasnext(),
+
         // Search - contains
         if (set.contains(1)) {
             System.out.println("Set contains 1");
