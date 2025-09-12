@@ -23,8 +23,13 @@ public class Hashing {
 
         // Iterator: to traverase - import java.util.iterator
         Iterator it = set.iterator();
+        while (it.hasNext()) {
+            System.out.println(it.next());
+        }
 
-        // has functions : hasnext(),
+        // has functions : hasNext() = returns true if there is next value otherwise
+        // false
+        // .next() = returns next value
 
         // Search - contains
         if (set.contains(1)) {
