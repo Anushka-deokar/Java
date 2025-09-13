@@ -8,13 +8,16 @@ Delete / remove - O(1)
 What is HashMap ? 
  - HashMap is part of Java’s Collection Framework.
  - It stores data as key-value pairs.
-
  - Keys are unique, but values can be duplicated.
-
  - It is unordered (not sorted by insertion or keys).
-
  - Based on hashing mechanism.
 
   Syntax :
 
     HashMap<KeyType, ValueType> mapName = new HashMap<>();
+
+ Example : car 
+                  fuel      |  price
+                  cng       |    70
+                  diesel    |    80
+                  petrol    |     90
