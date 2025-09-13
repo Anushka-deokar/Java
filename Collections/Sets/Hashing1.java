@@ -58,6 +58,10 @@ public class Hashing1 {
             System.out.println(key + " " + map.get(key));
         }
 
+        // remove
+        map.remove("China");
+        System.out.println(map);
+
     }
 
 }
