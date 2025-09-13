@@ -51,6 +51,13 @@ public class Hashing1 {
             System.out.println(e.getKey());
             System.out.println(e.getValue());
         }
+
+        // to make sets of only keys and pairs keyset through
+        Set<String> keys = map.keySet();
+        for (String key : keys) {
+            System.out.println(key + " " + map.get(key));
+        }
+
     }
 
 }
