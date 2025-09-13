@@ -1,0 +1,20 @@
+HashSet in Java
+
+insert/add - o(1)
+search /contains - O(1)
+Delete / remove - O(1)
+
+
+What is HashMap ? 
+ - HashMap is part of Java’s Collection Framework.
+ - It stores data as key-value pairs.
+
+ - Keys are unique, but values can be duplicated.
+
+ - It is unordered (not sorted by insertion or keys).
+
+ - Based on hashing mechanism.
+
+  Syntax :
+
+    HashMap<KeyType, ValueType> mapName = new HashMap<>();
