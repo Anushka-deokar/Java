@@ -19,6 +19,16 @@ public class Hashing1 {
         map.put("China", 180);
         System.out.println(map); // updation of value
 
+        // Search or lookup - map.get()
+        if (map.containsKey("Indonesia")) {
+            System.out.println("Key is present in map");
+
+        } else {
+            System.out.println("Key is not present in map");
+        }
+
+        System.out.println(map.get("China"));
+        System.out.println(map.get("Indonesia")); // returns null if key not present
     }
 
 }
