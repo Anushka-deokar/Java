@@ -28,7 +28,29 @@ public class Hashing1 {
         }
 
         System.out.println(map.get("China"));
-        System.out.println(map.get("Indonesia")); // returns null if key not present
+        System.out.println(map.get("Indonesia"));
+
+        // returns null if key not present
+
+        // for loop -> for( value : collection)
+        int arr[] = { 12, 15, 18 };
+        for (int i = 0; i < arr.length; i++) {
+            System.out.println(arr[i]);
+        }
+        System.out.println();
+
+        for (int val : arr) {
+            System.out.println(val + "");
+
+        }
+        System.out.println();
+
+        // Iteration
+        // Map.Entry<Integer, Integer> e : map.entrySet()
+        for (Map.Entry<String, Integer> e : map.entrySet()) {
+            System.out.println(e.getKey());
+            System.out.println(e.getValue());
+        }
     }
 
 }
