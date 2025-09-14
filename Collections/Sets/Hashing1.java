@@ -58,7 +58,7 @@ public class Hashing1 {
             System.out.println(key + " " + map.get(key));
         }
 
-        // remove
+        // remove any
         map.remove("China");
         System.out.println(map);
 
