@@ -1,0 +1,9 @@
+Bubble sort 
+ => Compares element and places last element at end
+ => largest elemet will be compared with each element and places last in first loop
+ => in sec loop will don't compare last element 
+ => here elements are compared and swap
+ 
+   ex.    7  8  3  1  2
+
+         
