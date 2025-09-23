@@ -6,4 +6,4 @@ Bubble sort
  
    ex.    7  8  3  1  2
 
-         
+    =>Here we do end-1 comparisons    
