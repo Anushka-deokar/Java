@@ -1,4 +1,4 @@
-package Arrays;
+
 
 import java.util.Scanner;
 
@@ -9,11 +9,23 @@ public class reverse {
         int left = 0, right = arr.length - 1;
          while(left < right )
          {
-            
+            int temp = arr[left];
+            arr[left] = arr[right];
+            arr[right] = temp;
+            left++;
+            right--;
          }
-        }
-        System.out.println("Maximum element in array is " + max);
 
+         // Find maximum element
+        int max = arr[0];
+        for(int i = 1; i < arr.length; i++) {
+            if(arr[i] > max) {
+                max = arr[i];
+            }
+        }
+        
+       System.out.println("Maximum element in array is " + max);
+    }
     }
 
-}
+
