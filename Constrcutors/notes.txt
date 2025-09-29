@@ -51,3 +51,9 @@ Types :
   -> For inner class we can use all access-modifiers i.e. public, protected, default and private
 
   ==========================================================================================
+
+  Constructor Overloading in Java
+
+  Constructor overloading in Java is a technique of having more than one constructor with different parameter lists. They are arranged in a way that each constructor performs a different task. 
+  They are differentiated by the compiler on the basis of the number
+   of parameters in the list and their types.
