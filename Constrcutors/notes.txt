@@ -57,3 +57,13 @@ Types :
   Constructor overloading in Java is a technique of having more than one constructor with different parameter lists. They are arranged in a way that each constructor performs a different task. 
   They are differentiated by the compiler on the basis of the number
    of parameters in the list and their types.
+
+======================================================================
+Java Copy Constructor
+Java does not support the copy constructor. However, we can copy the values from one object to another, like a copy constructor in C++.
+
+There are the following three ways to copy the values of one object into another:
+
+  By Using a Constructor
+  By Assigning the Values of One Object to Another
+  By Using the clone() Method of the Object Class
